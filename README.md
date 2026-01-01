@@ -90,26 +90,28 @@ Create virtual environment and install dependencies:
 cd backend
 pip install -r requirements.txt
 
-
-#Create .env file (do NOT commit):
-
-'''AWS_ACCESS_KEY_ID=your_access_key
+```
+Create .env file (do NOT commit):
+```
+AWS_ACCESS_KEY_ID=your_access_key
 AWS_SECRET_ACCESS_KEY=your_secret_key
 AWS_SESSION_TOKEN=optional
-AWS_REGION=us-east-1'''
-
-#Run backend:
-
+AWS_REGION=us-east-1
+```
+Run backend:
+```
 uvicorn app.main:app --reload
+```
+---
 
-### 2. Frontend Setup
+###### 2. Frontend Setup
 
-```In Powershell:
+```bash
 cd frontend
 npm install
 npm run dev
-
-```Open browser:
+```
+Open browser:
+```
 http://localhost:5173
-
-
+```
