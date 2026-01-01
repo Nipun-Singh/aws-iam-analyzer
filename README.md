@@ -91,7 +91,7 @@ cd backend
 pip install -r requirements.txt
 
 ```
-Create .env file (do NOT commit):
+Create .env file:
 ```
 AWS_ACCESS_KEY_ID=your_access_key
 AWS_SECRET_ACCESS_KEY=your_secret_key
